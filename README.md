@@ -1,13 +1,5 @@
 # Selective Sweeps Pipeline (OmegaPlus)
 
-## Overview
-Scans all genes in a genome for signals of selective sweeps using OmegaPlus, parallelised by chromosome via SLURM.
-
-## Requirements
-- Apptainer/Singularity
-- SLURM job scheduler
-- A tabix-indexed VCF (`tabix -p vcf Species_X.vcf.gz`)
-
 ## Directory Structure
 ```
 working-dir/
